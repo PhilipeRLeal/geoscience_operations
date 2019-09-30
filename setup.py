@@ -63,9 +63,13 @@ setup(
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7',
-        'Topic :: geographical distances estimation :: Geosciences',
+        'Topic :: Education', # this line follows the options given by: [1]
+		'Topic :: Scientific/Engineering :: Atmospheric Science' # this line follows the options given by: [1]		
     ],
     
     long_description=read('README'),
     
 )
+
+
+# [1]: https://pypi.org/classifiers/
